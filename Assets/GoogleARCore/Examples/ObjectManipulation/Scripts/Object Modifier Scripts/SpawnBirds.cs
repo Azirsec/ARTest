@@ -6,6 +6,9 @@ public class SpawnBirds : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Bird;
+    public GameObject forest;
+
+    public Bush[] bushes = new Bush[24];
 
     float lifetime = 0;
     float spawnTimer = 5;
@@ -13,9 +16,11 @@ public class SpawnBirds : MonoBehaviour
 
     int maxbirdsspawned = 3;
 
+    int selectedBush;
+
     void Start()
     {
-        
+        bushes = forest.GetComponentsInChildren<Bush>();
     }
 
     // Update is called once per frame
@@ -28,10 +33,11 @@ public class SpawnBirds : MonoBehaviour
         {
             spawnTimer = 5;
             //spawn bird
-            GameObject bird = new GameObject();
+            selectedBush = Random.Range(0, 24);
 
-            bird = Instantiate(Bird, transform.position + new Vector3(0, 0.25f, 0), transform.rotation) as GameObject;
+            bushes[selectedBush].vibrate(Bird);
             birdsspawned++;
         }
+
     }
 }

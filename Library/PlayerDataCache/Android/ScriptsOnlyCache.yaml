@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BlockKillBird
+    - Bush
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreCameraConfigFilter
     - GoogleARCore.ARCoreSession
@@ -71,69 +72,71 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9730}
+      Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9778}
+      Script: {instanceID: 9782}
     - Class: 114
-      Script: {instanceID: 9942}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 9988}
+      Script: {instanceID: 9992}
     - Class: 114
-      Script: {instanceID: 10040}
+      Script: {instanceID: 10044}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10416}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10456}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 10540}
+      Script: {instanceID: 10544}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 10746}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 10974}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 11064}
+      Script: {instanceID: 11054}
     - Class: 114
-      Script: {instanceID: 11088}
+      Script: {instanceID: 11070}
     - Class: 114
-      Script: {instanceID: 11118}
+      Script: {instanceID: 11094}
     - Class: 114
-      Script: {instanceID: 11160}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 11166}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11178}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11370}
     - Class: 114
-      Script: {instanceID: 11482}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 11652}
+      Script: {instanceID: 11510}
     - Class: 114
-      Script: {instanceID: 11664}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11668}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 11768}
+      Script: {instanceID: 11676}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11826}
     - Class: 114
-      Script: {instanceID: 12062}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 12070}
+    - Class: 114
+      Script: {instanceID: 12168}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -499,6 +502,12 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
+      Hash: dad8268858c0caf54809ca81e1f95ed8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bush
+  - hash:
+      serializedVersion: 2
       Hash: b818207c0b8a805931f7a7989870283e
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
@@ -559,7 +568,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: aa31f060051a5f095d11b48f49e123e1
+      Hash: 167ba472231331c1472a6acc6afc4b9a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnBirds
@@ -956,4 +965,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/ObjectManipulation/Scenes/ObjectManipulation.unity
-  playerPath: C:/Users/chris/Documents/Schoolwork/Emerging Tech/Assignments/ARTest/ARTest/Builds/test1.apk
+  playerPath: C:/Users/zaccl/Documents/GitHub/ARTest/Builds/test4.apk
