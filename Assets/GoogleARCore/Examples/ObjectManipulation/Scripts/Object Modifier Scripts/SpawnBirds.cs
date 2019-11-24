@@ -28,7 +28,7 @@ public class SpawnBirds : MonoBehaviour
     {
         lifetime += Time.deltaTime;
         spawnTimer -= Time.deltaTime;
-        
+
         if (spawnTimer < 0 && birdsspawned < maxbirdsspawned)
         {
             spawnTimer = 5;
