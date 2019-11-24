@@ -1,22 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gun : MonoBehaviour
 {
-    public LineRenderer line;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //public Text ui;
 
     // Update is called once per frame
     void Update()
     {
-        shoot();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //so if the button is down, you do the function
+            //you put the function here
+            //buttonPressed();
+            //ui.text = "good Job you shot";
+            GameObject.Find("PlayerScore").GetComponent<Text>().text = "you shot";
+            Debug.Log("you shot");
+            shoot();
+        }
+        //shoot();
     }
-
 
     public void shoot()
     {
