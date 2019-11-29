@@ -28,7 +28,7 @@ public class Bush : MonoBehaviour
             time += Time.deltaTime * bushVibrateSpeed;
             gameObject.transform.localPosition = new Vector3(startingPos.x + (Mathf.Sin(time) * 0.1f), startingPos.y, startingPos.z);
 
-            if (time / bushVibrateSpeed >= 2.3561944905)
+            if (time / bushVibrateSpeed >= Mathf.PI / 2)
             {
                 vibrating = false;
                 time = 0.0f;

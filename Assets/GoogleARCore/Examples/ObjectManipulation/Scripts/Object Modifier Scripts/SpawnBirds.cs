@@ -14,7 +14,7 @@ public class SpawnBirds : MonoBehaviour
     float spawnTimer = 5;
     int birdsspawned = 0;
 
-    int maxbirdsspawned = 3;
+    //int maxbirdsspawned = 3;
 
     int selectedBush;
 
@@ -29,7 +29,7 @@ public class SpawnBirds : MonoBehaviour
         lifetime += Time.deltaTime;
         spawnTimer -= Time.deltaTime;
 
-        if (spawnTimer < 0 && birdsspawned < maxbirdsspawned)
+        if (spawnTimer < 0)// && birdsspawned < maxbirdsspawned)
         {
             spawnTimer = 5;
             //spawn bird
@@ -38,6 +38,5 @@ public class SpawnBirds : MonoBehaviour
             bushes[selectedBush].vibrate(Bird);
             birdsspawned++;
         }
-
     }
 }

@@ -6,6 +6,13 @@ public class PawnMovement : MonoBehaviour
 {
     Vector3 direction;
     static int playerScore = 0;
+
+    private float maxLife = 8;
+    private float lifetime = 0;
+    private bool escaping = false;
+    private float deathDuration = 3;
+    private float lerpvalue = 0.1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +24,28 @@ public class PawnMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        lifetime += Time.deltaTime;
         transform.Translate(direction * Time.deltaTime);
+        transform.forward = direction;
+
+        gameObject.GetComponentInChildren<Transform>().GetComponentInChildren<Transform>().LookAt
+            (transform.position + direction.normalized * 50, Vector3.up);
+
+        if (lifetime > maxLife)
+        {
+            escaping = true;
+        }
+
+        if (escaping)
+        {
+            lerpvalue -= (Time.deltaTime / deathDuration) / 10;
+            gameObject.transform.localScale = new Vector3(lerpvalue, lerpvalue, lerpvalue);
+
+            if (lerpvalue <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     public void Die()

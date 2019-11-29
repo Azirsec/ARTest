@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &535638554994534275
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &788160399403082104
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &1811088878867170774
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &3155704689509597075
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &4004896258573850659
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &4419128794269963071
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &5307154560476682638
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &5441162358043193322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &5643967232165444198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &5750619815899745175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &5756825799392215560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &6012053237419729314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &6271339487637135109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &6535642449943119763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &6959673218509503355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &7158195916237776967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &7260194842820942336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &7562707789722924419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,7 +2047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &7762342458039151484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &8035720257652347420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &8232733140506286391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &8674332272777938571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,7 +2415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16
 --- !u!1 &8880942037096510729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,4 +2586,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931cc6261db790a45b17afcaae29df6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bushVibrateSpeed: 8
+  bushVibrateSpeed: 16

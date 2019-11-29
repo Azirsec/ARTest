@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 467638469971979595}
   - component: {fileID: 2501057231828316302}
   - component: {fileID: 8613646320043797759}
-  - component: {fileID: 4555096936874609799}
   - component: {fileID: -6720160115854286097}
   - component: {fileID: 237561371887212779}
   m_Layer: 0
-  m_Name: DyingSphere
+  m_Name: Birb
   m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,18 +95,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4555096936874609799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4047320203361443212}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a90d48507f778094ab7f81e8f01fe99b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-6720160115854286097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,13 +148,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5174030614155733521}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0, z: 0.9396927, w: -0.3420201}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8998683540574998103}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 220}
 --- !u!33 &7414649639752369909
 MeshFilter:
   m_ObjectHideFlags: 0

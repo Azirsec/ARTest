@@ -10,17 +10,12 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             //so if the button is down, you do the function
             //you put the function here
-            //buttonPressed();
-            //ui.text = "good Job you shot";
-            GameObject.Find("PlayerScore").GetComponent<Text>().text = "you shot";
-            Debug.Log("you shot");
             shoot();
         }
-        //shoot();
     }
 
     public void shoot()
