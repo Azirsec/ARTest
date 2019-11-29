@@ -27,6 +27,12 @@ public class Gun : MonoBehaviour
             {
                 hit.collider.gameObject.GetComponent<PawnMovement>().Die();
             }
+
+            if (hit.collider.gameObject.tag == "Dog")
+            {
+                //hit.collider.gameObject.GetComponent<Dog>().Remo();
+                print("LOL me can't die");
+            }
         }
     }
 }

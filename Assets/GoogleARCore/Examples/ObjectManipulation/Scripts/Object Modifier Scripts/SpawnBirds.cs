@@ -6,6 +6,7 @@ public class SpawnBirds : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Bird;
+    public GameObject Dog;
     public GameObject forest;
 
     public Bush[] bushes = new Bush[24];
@@ -32,11 +33,24 @@ public class SpawnBirds : MonoBehaviour
         if (spawnTimer < 0)// && birdsspawned < maxbirdsspawned)
         {
             spawnTimer = 5;
-            //spawn bird
-            selectedBush = Random.Range(0, 24);
 
-            bushes[selectedBush].vibrate(Bird);
-            birdsspawned++;
+            int thingToSpawn = Random.Range(0, 10);
+
+            if (thingToSpawn < 9)
+            {
+                //spawn bird
+                selectedBush = Random.Range(0, 24);
+                bushes[selectedBush].spawnBird(Bird);
+                birdsspawned++;
+            }
+
+            //spawn doge
+            else
+            {
+                selectedBush = Random.Range(0, 24);
+                bushes[selectedBush].spawnDog(Dog);
+            }
+
         }
     }
 }

@@ -10,7 +10,7 @@ public class Bush : MonoBehaviour
     bool vibrating;
     public int bushVibrateSpeed;
 
-    GameObject bird;
+    GameObject animal;
 
     // Start is called before the first frame update
     void Start()
@@ -33,15 +33,20 @@ public class Bush : MonoBehaviour
                 vibrating = false;
                 time = 0.0f;
                 gameObject.transform.localPosition = startingPos;
-                GameObject b = new GameObject();
-                b = Instantiate(bird, transform.position + new Vector3(0, 0.05f, 0), transform.rotation) as GameObject;
+                GameObject b = Instantiate(animal, transform.position, transform.rotation) as GameObject;
             }
         }
     }
 
-    public void vibrate(GameObject go)
+    public void spawnBird(GameObject go)
     {
         vibrating = true;
-        bird = go;
+        animal = go;
+    }
+
+    public void spawnDog(GameObject go)
+    {
+        vibrating = true;
+        animal = go;
     }
 }

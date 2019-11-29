@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bird: {fileID: 4047320203361443212, guid: a281978dbdb47a143b95ad4a417e784c, type: 3}
+  Dog: {fileID: 7090102109003592412, guid: 637c27bd03be93941b453a5ed59d7edf, type: 3}
   forest: {fileID: 6535642449943119763}
   bushes:
   - {fileID: 0}
