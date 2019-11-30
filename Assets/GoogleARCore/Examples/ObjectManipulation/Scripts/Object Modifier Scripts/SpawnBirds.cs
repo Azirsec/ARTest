@@ -34,9 +34,9 @@ public class SpawnBirds : MonoBehaviour
         {
             spawnTimer = 5;
 
-            int thingToSpawn = Random.Range(0, 10);
+            int thingToSpawn = Random.Range(0, 5);
 
-            if (thingToSpawn < 9)
+            if (thingToSpawn < 4)
             {
                 //spawn bird
                 selectedBush = Random.Range(0, 24);

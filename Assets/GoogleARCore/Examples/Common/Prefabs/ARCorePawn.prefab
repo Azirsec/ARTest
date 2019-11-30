@@ -105,7 +105,7 @@ Transform:
   m_GameObject: {fileID: 1513252861858756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4697286338821640}
   - {fileID: 3719536723541700696}
@@ -260,6 +260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &535638554994534275
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &788160399403082104
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +448,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &1811088878867170774
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +542,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &3155704689509597075
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +636,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &4004896258573850659
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &4419128794269963071
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &5307154560476682638
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +996,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &5441162358043193322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1090,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &5643967232165444198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &5750619815899745175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,6 +1278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &5756825799392215560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &6012053237419729314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1466,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &6271339487637135109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &6535642449943119763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,6 +1709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &6959673218509503355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1803,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &7158195916237776967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +1897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &7260194842820942336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +1991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &7562707789722924419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,6 +2085,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &7762342458039151484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,6 +2179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &8035720257652347420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &8232733140506286391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,6 +2367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &8674332272777938571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,6 +2461,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}
 --- !u!1 &8880942037096510729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,3 +2634,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bushVibrateSpeed: 16
+  isvibrating: {fileID: 2100000, guid: 538a2b5ef1d9f5a4aa02de81578fa236, type: 2}
+  notvibrating: {fileID: 2100000, guid: b1a37ba3b2f25a842b59c0fd9244167d, type: 2}

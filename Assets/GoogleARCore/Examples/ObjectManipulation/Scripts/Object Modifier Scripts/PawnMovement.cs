@@ -13,20 +13,24 @@ public class PawnMovement : MonoBehaviour
     private float deathDuration = 3;
     private float lerpvalue = 0.1f;
 
+    private float velocity = 0;
+
     // Start is called before the first frame update
     void Start()
     {
         direction.x = (float)Random.Range(-100, 101) / 1000.0f;
-        direction.y = 0.1f;
+        direction.y = 0.2f;
         direction.z = (float)Random.Range(-100, 101) / 1000.0f;
+
+        velocity = (float)Random.Range(30, 100) / 100.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
         lifetime += Time.deltaTime;
-        transform.Translate(direction * Time.deltaTime);
-        transform.forward = direction;
+        transform.position += direction.normalized * velocity * Time.deltaTime;
+        transform.forward = direction.normalized;
 
         gameObject.GetComponentInChildren<Transform>().GetComponentInChildren<Transform>().LookAt
             (transform.position + direction.normalized * 50, Vector3.up);

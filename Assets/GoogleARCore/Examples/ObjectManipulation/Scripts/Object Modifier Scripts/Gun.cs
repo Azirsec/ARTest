@@ -2,19 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using UnityEditor.Android;
 
 public class Gun : MonoBehaviour
 {
     //public Text ui;
+    bool touchlastframe = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             //so if the button is down, you do the function
-            //you put the function here
+            //you put the function here`
             shoot();
+
+        }
+
+        if (Input.touchCount > 0 && !touchlastframe)
+        {
+            shoot();
+            touchlastframe = true;
+        }
+        else if (Input.touchCount <= 0)
+        {
+            touchlastframe = false;
         }
     }
 

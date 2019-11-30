@@ -10,6 +10,9 @@ public class Bush : MonoBehaviour
     bool vibrating;
     public int bushVibrateSpeed;
 
+    [SerializeField] Material isvibrating;
+    [SerializeField] Material notvibrating;
+
     GameObject animal;
 
     // Start is called before the first frame update
@@ -17,7 +20,6 @@ public class Bush : MonoBehaviour
     {
         time = 0.0f;
         startingPos = gameObject.transform.localPosition;
-
     }
 
     // Update is called once per frame
@@ -25,6 +27,9 @@ public class Bush : MonoBehaviour
     {
         if (vibrating)
         {
+
+            gameObject.GetComponent<MeshRenderer>().material = isvibrating;
+
             time += Time.deltaTime * bushVibrateSpeed;
             gameObject.transform.localPosition = new Vector3(startingPos.x + (Mathf.Sin(time) * 0.1f), startingPos.y, startingPos.z);
 
@@ -35,6 +40,10 @@ public class Bush : MonoBehaviour
                 gameObject.transform.localPosition = startingPos;
                 GameObject b = Instantiate(animal, transform.position, transform.rotation) as GameObject;
             }
+        }
+        else
+        {
+            gameObject.GetComponent<MeshRenderer>().material = notvibrating;
         }
     }
 
