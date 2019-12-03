@@ -22,7 +22,7 @@ public class PawnMovement : MonoBehaviour
         direction.y = 0.2f;
         direction.z = (float)Random.Range(-100, 101) / 1000.0f;
 
-        velocity = (float)Random.Range(30, 100) / 100.0f;
+        velocity = (float)Random.Range(30, 80) / 100.0f;
     }
 
     // Update is called once per frame
